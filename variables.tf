@@ -6,6 +6,7 @@ variable "aws_region" {
 variable "aws_profile" {
   type    = string
   default = "ashok-dev" # Change this to your AWS profile name
+  sensitive = true
 }
 
 #variable "access_key" {
